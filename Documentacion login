@@ -1,0 +1,49 @@
+Para lograr hacer el login con Django Sigan el link que les dejo acá
+
+https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/
+
+1) Si algunos comandos no les corre como por ejemplo 
+
+django-admin.py startproject my_project
+
+en donde la extensión ".py" me dio error a mi, y no me reconocia el comando lo que hice fue quitar
+la extensión ".py" y solo correr el comando como "django-admin startproject my_project" y me funciono
+
+2) para el comando de "manage.py migrate" me daba error, lo que hice fue agregar lo siguente al comando
+"python manage.py migrate" y me reconocia el comando y lo corria.
+
+Para el registro utilice lo que encontre en la siguiente pagina
+
+https://wsvincent.com/django-user-authentication-tutorial-signup/
+
+Sigan las instrucciones que tienen ahí estan bastante detalladas y si quieren que los redireccione 
+desde la pagina del login. En el html del login tienen que colocar lo siguiente 
+
+<a
+  href="http://127.0.0.1:8000/accounts/signup/"
+  <button type="submit">Sign Up</button>
+</a>
+
+Esto es para al presionar sobre el boton de "Sign Up" los redireccione a la pagina del registro
+
+Login
+Utilicen el siguiente link para modificar el login
+
+https://www.w3schools.com/howto/howto_css_signup_form.asp
+
+Aunque este que les puse aca les va a mandar al sign up solo le dan donde dice forms, y escogen "Login Forms"
+
+Ya para querer modificar en el html solo copian desde donde dice <form> hasta donde cierra </form>
+
+Y eso les generara automaticamente el form tanto para el login como para el sign up
+
+*Utilicen el siguiente comando para que les genere un recuadro dentro del login
+
+ <div class="row">
+          <div class="card">
+            <div class="card-body">
+
+*Para querer modificar los botones les dejo el siguiente link: https://getbootstrap.com/docs/4.1/components/buttons/
+
+Tambien dentro del link pueden encontrar muchisimas mas cosas esta bien chilero revisen y trasteen XD
+
